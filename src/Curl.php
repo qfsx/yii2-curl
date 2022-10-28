@@ -6,7 +6,7 @@
  * @category  Web-yii2
  * @package   yii2-curl
  * @license   http://opensource.org/licenses/MIT MIT Public
- * @version   1.0.1
+ * @version   1.0.2
  *
  */
 
@@ -90,7 +90,7 @@ class Curl
     protected $_postParams = [];
 
     /**
-     * @var resource|null
+     * @var resource|null|\CurlHandle
      * Holds cURL-Handler
      */
     public $curl = null;

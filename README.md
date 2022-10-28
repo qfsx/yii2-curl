@@ -179,6 +179,9 @@ Testing
 - Run codeception tests with `vendor/bin/codecept run` in repository root dir. 
   On windows run `vendor\bin\codecept.bat run`. 
 
+##### Release 1.0.2 - Changelog
+- PHP 8.0+
+
 ##### Release 1.0.1 - Changelog
 - Add OPTIONS request
 
